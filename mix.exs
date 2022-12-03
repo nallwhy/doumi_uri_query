@@ -10,7 +10,8 @@ defmodule Doumi.URI.Query.MixProject do
       version: @version,
       elixir: "~> 1.12",
       deps: deps(),
-      package: package()
+      package: package(),
+      docs: docs()
     ]
   end
 
@@ -24,8 +25,7 @@ defmodule Doumi.URI.Query.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+      {:ex_doc, "~> 0.28", only: :dev, runtime: false}
     ]
   end
 
@@ -38,6 +38,19 @@ defmodule Doumi.URI.Query.MixProject do
       links: %{
         "GitHub" => @source_url
       }
+    ]
+  end
+
+  defp docs do
+    [
+      extras: [
+        "README.md": [title: "Overview"],
+        "LICENSE.md": [title: "License"]
+      ],
+      source_url: @source_url,
+      main: "readme",
+      api_reference: false,
+      formatters: ["html"]
     ]
   end
 end
