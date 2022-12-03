@@ -34,7 +34,7 @@ defmodule Doumi.URI.Query.MixProject do
       description: "A helper library that handles query of URI.",
       licenses: ["MIT"],
       maintainers: ["Jinkyou Son(nallwhy@gmail.com)"],
-      files: ~w(lib mix.exs README.md),
+      files: ~w(lib mix.exs README.md LICENSE.md),
       links: %{
         "GitHub" => @source_url
       }
