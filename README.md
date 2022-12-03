@@ -8,7 +8,7 @@
 
 <!-- MDOC !-->
 
-`Doumi.URI.Query` is a helper library that encode complicated query of URI.
+`Doumi.URI.Query` is a helper library that supports encoding complicated query of URI.
 
 **도우미(Doumi)** means "helper" in Korean.
 

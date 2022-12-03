@@ -31,7 +31,7 @@ defmodule Doumi.URI.Query.MixProject do
 
   defp package do
     [
-      description: "A helper library that handles query of URI.",
+      description: "A helper library that supports encoding complicated query of URI.",
       licenses: ["MIT"],
       maintainers: ["Jinkyou Son(nallwhy@gmail.com)"],
       files: ~w(lib mix.exs README.md LICENSE.md),
